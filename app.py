@@ -8,4 +8,4 @@ st.set_page_config(
 st.write("# Welcome to Natalie's App")
 
 if st.button('Press Me'):
-    st.markdown("### Natalie!", safe=false)
+    st.markdown("### Natalie!", unsafe_allow_html=False)
