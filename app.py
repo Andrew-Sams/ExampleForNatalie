@@ -1,6 +1,6 @@
 import streamlit as st
 
-sf.setpage_config(
+st.set_page_config(
     page_title="Natalie's App",
     layout="wide",
 )
