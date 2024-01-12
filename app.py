@@ -8,4 +8,4 @@ st.set_page_config(
 st.title("Welcome to Natalie's App")
 
 if st.button('Press Me'):
-    st.write("# Natalie!")
+    st.text("Natalie")
