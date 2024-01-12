@@ -5,7 +5,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.write("# Welcome to Natalie's App")
+st.title("Welcome to Natalie's App")
 
 if st.button('Press Me'):
-    st.markdown("### Natalie!", unsafe_allow_html=False)
+    st.write("# Natalie!")
